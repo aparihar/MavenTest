@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anil</groupId>
 	<artifactId>maventest</artifactId>
-	<version>0.0.17-SNAPSHOT</version>
+	<version>0.0.18-SNAPSHOT</version>
 	<name>maventest</name>
 	<description>maventest</description>
 
@@ -27,11 +27,6 @@
 					<tag>${project.artifactId}-${project.version}</tag>
 					<message>${project.artifactId}-${project.version} test</message>
 				</configuration>
-				<goals>
-					<goal>clean</goal>
-					<goal>install</goal>
-					<goal>git commit</goal>
-				</goals>
 			</plugin>
 		</plugins>
 	</build>
