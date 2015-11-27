@@ -3,12 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anil</groupId>
 	<artifactId>maventest</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.8-SNAPSHOT</version>
 	<name>maventest</name>
 	<description>maventest</description>
 
 	<scm>
 		<connection>scm:git:https://github.com/aparihar/MavenTest.git</connection>
+		<developerConnection>scm:git:https://github.com/aparihar/MavenTest.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -21,12 +22,9 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-scm-plugin</artifactId>
-				<version>2.5.3</version>
+				<version>1.9.4</version>
 				<configuration>
 					<tag>${project.artifactId}-${project.version}</tag>
-					<goals>
-						<goal>checkin</goal>
-					</goals>
 				</configuration>
 			</plugin>
 		</plugins>
