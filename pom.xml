@@ -29,7 +29,7 @@
 				<goals>
 					<goal>clean</goal>
 					<goal>install</goal>
-					<goal>checkin</goal>
+					<goal>scm:checkin</goal>
 				</goals>
 			</plugin>
 		</plugins>
