@@ -27,6 +27,11 @@
 				<configuration>
 					<tag>${project.artifactId}-${project.version}</tag>
 				</configuration>
+				<goals>
+					<goal>clean</goal>
+					<goal>install</goal>
+					<goal>commit</goal>
+				</goals>
 			</plugin>
 		</plugins>
 	</build>
