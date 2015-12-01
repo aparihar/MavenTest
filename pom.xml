@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anil</groupId>
 	<artifactId>maventest</artifactId>
-	<version>0.0.24-SNAPSHOT</version>
+	<version>0.0.25-SNAPSHOT</version>
 	<name>maventest</name>
 	<description>maventest</description>
 	<packaging>pom</packaging>
@@ -27,7 +27,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-scm-plugin</artifactId>
-				<version>1.9.4</version>
+				<version>2.5.3</version>
 				<configuration>
 					<tag>${project.artifactId}-${project.version}</tag>
 					<message>${project.artifactId}-${project.version} test</message>
