@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anil</groupId>
 	<artifactId>maventest</artifactId>
-	<version>0.0.27</version>
+	<version>0.0.28-SNAPSHOT</version>
 	<name>maventest</name>
 	<description>maventest</description>
 	<packaging>pom</packaging>
