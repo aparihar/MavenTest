@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anil</groupId>
 	<artifactId>maventest</artifactId>
-	<version>0.0.30-SNAPSHOT</version>
+	<version>0.0.31-SNAPSHOT</version>
 	<name>maventest</name>
 	<description>maventest</description>
 	<packaging>pom</packaging>
@@ -15,8 +15,8 @@
 		<connection>scm:git:https://github.com/aparihar/MavenTest.git</connection>
 		<developerConnection>scm:git:https://github.com/aparihar/MavenTest.git</developerConnection>
 		<url>https://github.com/aparihar/MavenTest</url>
-		<tag>maventest-0.0.11</tag>
-	</scm>
+	  <tag>HEAD</tag>
+  </scm>
 
 	<build>
 		<plugins>

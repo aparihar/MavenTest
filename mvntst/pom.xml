@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.anil</groupId>
 		<artifactId>maventest</artifactId>
-		<version>0.0.30-SNAPSHOT</version>
+		<version>0.0.31-SNAPSHOT</version>
 	</parent>
 	<artifactId>mvntst</artifactId>
 	<name>MVNTest</name>
